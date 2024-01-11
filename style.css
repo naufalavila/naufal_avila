@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: silver;
+    font-size: 22px;
+    display: grid;
+    place-items: center;
+}
+
+nav {
+    width: 100%;
+    height: 110px;
+    background-color: rgb(49, 214, 165);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    width: 140px;
+    height: 50px;
+    background-color: rgb(24, 199, 103);
+    border: 2px solid grey;
+    display: grid;
+    place-items: center;
+    color: beige;
+    font-weight: bold;
+    
+}
+
+nav a:hover {
+    cursor: grab;
+}
+
+.judul {
+    background-color: rgb(80, 167, 138);
+    width: 250px;
+    height: 60px;
+    display: grid;
+    place-items: center;
+
+}
+
+img {
+    width: 80px;
+    height: 80px;
+}
+
+.judul h1 {
+    color: beige;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+.wrapper {
+    background-color: silver;
+    width: 96%;
+    margin: auto;
+    height: 75%;
+}
+
+main {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(47, 199, 179);   
+    display: flex;
+    align-items: center;
+}
+
+main p {
+    height: inherit;
+    position: relative;
+    padding-top: 12px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    text-wrap: wrap;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
+main h1 {
+    background-color: gold;
+    text-align: center;
+    position: relative;
+
+}
+
+.cara-1 {
+    width: 100%;
+    height: 250px;
+    background-color: darkkhaki;
+    display: flex;
+    justify-content: center; 
+}
+
+.cara-1 p {
+    height: inherit;
+    position: relative;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    text-wrap: wrap;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.cara-1 img {
+    width: 322px;
+    height: inherit;
+}
+
+.cara-2 {
+    width: 100%;
+    height: 250px;
+    background-color: gold;
+    display: flex;
+    justify-content: center; 
+}
+
+.cara-2 img {
+    width: 322px;
+    height: inherit;
+}
+
+.cara-2 p {
+    height: inherit;
+    position: relative;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    text-wrap: wrap;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.cara-3 {
+    width: 100%;
+    height: 250px;
+    background-color:  rgb(122, 230, 21);
+    display: flex;
+    justify-content: center;
+}
+
+.cara-3 img {
+    width: 322px;
+    height: inherit;
+}
+
+.cara-3 p {
+    height: inherit;
+    position: relative;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    text-wrap: wrap;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.cara-4 {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(47, 199, 179);
+    display: flex;
+    justify-content: center;
+   
+}
+
+.cara-4 img {
+    width: 403px;
+    height: inherit;
+  
+}
+
+.cara-4 p {
+    height: inherit;
+    position: static;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    text-wrap: wrap;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 100%;
+}
+
+.cara-5 {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(221, 148, 54);
+    display: flex;
+    justify-content: center;
+}
+
+.cara-5 img {
+    width: 322px;
+    height: inherit;
+}
+
+.cara-5 p {
+    height: inherit;
+    position: relative;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    text-wrap: wrap;
+    text-align: justify;
+    text-justify: inter-word;
+}
